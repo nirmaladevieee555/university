@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ff58122e07.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Francois+One&family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ff58122e07.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub_header">
+        <nav>
+            <a class="img" href="index.html"><i class="fa-solid fa-graduation-cap"></i></a>
+            <div class="nav-links" id="navLinks">
+                <label for="item"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></label>
+                <input type="checkbox" id="item" class="box" />
+                <ul>
+                   <li><a href="index.html"> home</a></li>
+                   <li><a href="about.html">about</a></li>
+                   <li><a href="course.html">course</a></li>
+                   <li><a href="block.html.html">course</a></li>
+                   <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <!-- <i class="fa-solid fa-bars"></i>-->
+            <label for="check"> <i class="fa-solid fa-bars icon" onclick="showMenu()"></i></label>
+            <input type="checkbox" id="check" class="input_box" />
+        </nav>
+        <div class="text-box1">
+
+            <h1>ABOUT US</h1>
+            
+            
+        </div>
+
+
+
+    
+
+        
+    </section>
+
+  
+    
+    
+    <!--------------------Fabout us content------------------>
+    <section class="about_us">
+        <div class="row">
+            <div class="about-col">
+                <h1>
+                    We Are the World's Largest University
+                </h1>
+                <p>
+                    Global Vision University is a world-renowned institution dedicated to academic excellence, innovation, and community service. 
+                    With a legacy of over 50 years, we have consistently ranked among the top universities for research, teaching, and global engagement.
+                </p>
+                <p>
+                    Our diverse community of students and faculty from over 60 countries creates a vibrant learning environment where ideas thrive and leaders are born.
+                    Whether it's engineering, business, arts, or health sciences — we offer over 150 programs tailored to prepare students for successful and meaningful careers.
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE COURSES</a>
+            </div>
+            <div class="about-col">
+                <img src="./architecture-independence-palace-ho-chi-minh-city.jpg" alt="no imag">
+            </div> 
+        </div>
+        
+    </section>
+      
+
+    
+
+
+    <!--------------------FOOTER--------------------->
+    <section class="footer" style="background-color:#1a1a1a ; color: white;">
+        <h4>ABOUT US</h4>
+        <p>We are dedicated to fostering innovation, leadership, and academic excellence. Our mission is to prepare students for the future by offering world-class education and resources.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+        
+        
+
+
+    
+    
+
+    
+           
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>

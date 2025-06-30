@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ff58122e07.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Francois+One&family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="sub_header" style="background-color: #3f51b5;">
+        <nav>
+            <a class="img" href="index.html"><i class="fa-solid fa-graduation-cap"></i></a>
+
+            <div class="nav-links" id="navLinks">
+                <label for="item"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></label>
+                <input type="checkbox" id="item" class="box" />
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="block.html.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <label for="check"> <i class="fa-solid fa-bars icon" onclick="showMenu()"></i></label>
+            <input type="checkbox" id="check" class="input_box" />
+        </nav>
+
+        <div class="text-box1">
+            <h1>Our Certificate & Online Programs for 2021</h1>
+            <p style="color: #ccc;">Explore career-building programs designed to empower your future.</p>
+        </div>
+    </section>
+
+    <section class="blog-content" style="background-color: #f1f8e9;">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./digital-devices-graduation-diploma-certificate.jpg">
+                <h2>Online Education That Fits Your Life</h2>
+                <p>We offer a variety of certification and degree programs that are designed to be flexible and accessible to learners around the globe. Whether you want to upgrade your skills or start a new career, we have a path for you.</p>
+                <br>
+                <p>Our online learning experience blends expert faculty, interactive tools, and real-world case studies to ensure you gain practical knowledge. Each program is created with your career goals in mind.</p>
+                <br>
+                <p>Join thousands of learners who have advanced their careers through our accredited programs. From data science to digital marketing, explore the future of education with us.</p>
+                <br>
+                <p>Enroll now and gain access to exclusive resources, one-on-one mentorship, and a global community of professionals. Learning has never been more engaging or convenient.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="blog-right" style="background-color: #fffde7; padding: 10px; height: 550px; border-radius: 8px;">
+                <h3>Popular Postgraduate Courses</h3>
+                <div>
+                    <span><strong>Business Analytics</strong></span><br>
+                    <small>Master data-driven decision-making and predictive analysis.</small>
+                </div>
+                <div>
+                    <span><strong>Artificial Intelligence</strong></span><br>
+                    <small>Design and develop intelligent systems and automation.</small>
+                </div>
+            <div>
+                <span><strong>Cybersecurity & Risk Management</strong></span><br>
+                <small>Protect networks, data, and infrastructure from threats.</small>
+            </div>
+            <div>
+                <span><strong>Cloud & DevOps Engineering</strong></span><br>
+                <small>Deploy scalable applications using AWS, Azure, and CI/CD tools.</small>
+            </div>
+            <div>
+                <span><strong>Digital Marketing Strategies</strong></span><br>
+                <small>Optimize brand presence through SEO, SEM, and social platforms.</small>
+            </div>
+        </div>
+    </div>
+</section>    
+
+    <section class="footer" style="background-color:#1a1a1a ; color: white;">
+        <h4>ABOUT US</h4>
+        <p>We are dedicated to fostering innovation, leadership, and academic excellence. Our mission is to prepare students for the future by offering world-class education and resources.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
