@@ -12,7 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Francois+One&family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ff58122e07.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">    
+
 
 </head>
 
@@ -20,36 +22,27 @@
 
     <section class="sub_header">
         <nav>
-            <a class="img" href="index.html"><i class="fa-solid fa-graduation-cap"></i></a>
-
+            <a href="index.html"><img src="" alt=""></a>
             <div class="nav-links" id="navLinks">
-
-
-                <label for="item"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></label>
-                <input type="checkbox" id="item" class="box" />
-
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html"> home</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="course.html">course</a></li>
-                    <li><a href="block.html.html">course</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="block.html.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+
                 </ul>
             </div>
-            <!-- <i class="fa-solid fa-bars"></i>-->
-            <label for="check"> <i class="fa-solid fa-bars icon" onclick="showMenu()"></i></label>
-            <input type="checkbox" id="check" class="input_box" />
-
-
-
-
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box1">
             <h1>our courses</h1>
 
         </div>
 
-       
+
 
 
     </section>
@@ -57,164 +50,154 @@
 
     <div class="course1">
 
+
+        <!---------course-------->
         <section class="course">
-
-            <h1>
-                Start learning with free courses
-
-            </h1>
+            <h1>Start learning with free courses</h1>
             <h2>Explore free online courses from the world's top universities and companies.</h2>
-            <div class=container>
-                <div class="card1">
-                    <div class=card>
-                        <div class=image>
-                            <img href="#" src="./images.jpg">
-                            <h1>html</h1>
-                        </div>
-                        <div class=content>
-                            <img src="./html_logo.png" style="width: 100px; height: 50px;">
-                            <p>
-                                Introduction to HTML<br>
-                                Introduction to building Web Pages using HTML5 and CSS3
-                            </p>
-                        </div>
+            <div class="card-container">
+                <!-- HTML Card -->
+                <div class="card">
+                    <img src="./images.jpg" alt="HTML Course" class="card-img">
+                    <div class="card-body">
+                        <img src="./html_logo.png" class="logo" alt="HTML Logo">
+                        <h3>HTML</h3>
+                        <p>Introduction to building Web Pages using HTML5 and CSS3.</p>
                     </div>
                 </div>
-            </div>
-         
-            <div class=container>
-                <div class="card2">
-                    <div class=card>
-                        <div class=image>
-                            <img href="#" src="./pu.jpg">
-                            <h1>
-                                python
-                            </h1>
-                        </div>
-                        <div class=content>
-                            <img src="./python_logo.png " style="width: 100px; height: 50px;">
-                            <p>
-                                Python for Data Science, AI & Development
-                            </p>
-                        </div>
+
+                <!-- Python Card -->
+                <div class="card">
+                    <img src="./pu.jpg" alt="Python Course" class="card-img">
+                    <div class="card-body">
+                        <img src="./python_logo.png" class="logo" alt="Python Logo">
+                        <h3>Python</h3>
+                        <p>Python for Data Science, AI & Development.</p>
                     </div>
                 </div>
-            </div>
-          
-            
-            <div class=container>
 
-
-                <div class=card3>
-
-                    <div class=card>
-
-                        <div class=image>
-
-                            <img href="#" src="./java.jpg">
-                            <h1>java</h1>
-                        </div>
-
-                        <div class=content>
-                            <img src="./java-logo.gif"style="width: 100px; height: 50px;">
-
-                            <p>
-                                Core Java Specialization<br>
-                                Learn the Skills Needed to be a Java Programmer. Quickly master <br>the Java programming
-                                language and the packages that constitute<br> its rich set of core libraries. 
-                            </p>
-                        </div>
+                <!-- Java Card -->
+                <div class="card">
+                    <img src="./java.jpg" alt="Java Course" class="card-img">
+                    <div class="card-body">
+                        <img src="./java-logo.gif" class="logo" alt="Java Logo">
+                        <h3>Java</h3>
+                        <p>Master Java programming language and its rich set of core libraries.</p>
                     </div>
                 </div>
-            </div>
-            
-
-            
 
         </section>
+
+
     </div>
+    <!--------------------------facility----------------------------->
+
     <!--------------------------facility----------------------------->
 
     <section class="facility">
 
         <h1>our facilities</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis voluptates aliquid animi
-            omnis.</p>
+        <p>Our campus offers world-class facilities designed to support your learning, wellness, and creativity.</p>
+
         <div class="row">
             <div class="facilities-col" id="rotate-y">
                 <img src="./hostal.avif" alt="no img">
-                <h3>world class libraery</h3>
+                <h3>Comfortable On-Campus Hostels</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ut cum deserunt illo ipsam.
+                    Our hostels provide a safe, clean, and inclusive living environment with all essential amenities to ensure students feel at home.
                 </p>
 
             </div>
-            
 
-            
+
+
             <div class="facilities-col" id="rotate-y">
                 <img src="./library.avif" alt="no img">
-                <h3>largest play ground</h3>
+                <h3>Modern Library</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ut cum deserunt illo ipsam.
+                    Our library offers an extensive collection of academic resources, digital access, 
                 </p>
 
             </div>
             <div class="facilities-col" id="rotate-y">
                 <img src="./computer.avif" alt="no img">
-                <h3>tasty and healthy food</h3>
+                <h3>Advanced Computer Labs</h3>
+
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ut cum deserunt illo ipsam.
-                </p>
+                    Equipped with the latest technology and software tools, our labs support research, programming, and project development.</p>
 
             </div>
         </div>
     </section>
-    <section>    
-        <div class="facility1"   >
+    <section>
+        <div class="facility1">
             <div class="row">
-
                 <div class="facilities-col" id="rotate-y">
-                    <img src="./mangal-salad-mix-grilled-eggplants-tomatoes-bell-peppers-with-garlic-served-with-different-sauces.jpg" alt="no img">
-                    <h3>tasty and healthy food</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ut cum deserunt illo ipsam.
-                   </p>
+                    <img src="./mangal-salad-mix-grilled-eggplants-tomatoes-bell-peppers-with-garlic-served-with-different-sauces.jpg"
+                        alt="no img">
+                    <h3>Supporting Every Step of Student Life</h3>
+                    <p>From healthy dining to collaborative study zones, our campus ensures a balanced, enriching experience for every student.</p>
+
 
                 </div>
                 <div class="facilities-col" id="rotate-y">
                     <img src="./side-view-people-correcting-grammar-mistakes.jpg" alt="no img">
-                    <h3>writing area</h3>
+                    <h3>Collaborative Writing Spaces</h3>
                     <p>
-                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ut cum deserunt illo ipsam.
+                        Our student services team offers emotional, academic, and career support to ensure you thrive throughout your journey.
                     </p>
 
                 </div>
                 <div class="facilities-col" id="rotate-y">
                     <img src="./workers-expressing-acceptance.jpg" alt="no img">
-                    <h3>tasty and healthy food</h3>
+                    <h3>Nutritious Dining Options</h3>
                     <p>
-                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ut cum deserunt illo ipsam.
+                       Our student services team offers emotional, academic, and career support to ensure you thrive throughout your journey.
                     </p>
 
                 </div>
-            </div>    
-           
+            </div>
+
         </div>
+    </section>
+    
+    <!--------------------FOOTER--------------------->
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>ABOUT US</h4>
+                <p>We are dedicated to fostering innovation, leadership, and academic excellence. Our mission is to
+                    prepare students for the future by offering world-class education and resources.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="block.html.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: info@globalvision.edu</p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Address: 123 University St, City, Country</p>
+                <div class="icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="credit">Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
     </section>
 
-    <!--------------------FOOTER--------------------->
-    <section class="footer" style="background-color:#1a1a1a ; color: white;">
-        <h4>ABOUT US</h4>
-        <p>We are dedicated to fostering innovation, leadership, and academic excellence. Our mission is to prepare students for the future by offering world-class education and resources.</p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
-    </section>
 
 
 

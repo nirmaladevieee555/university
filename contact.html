@@ -20,46 +20,85 @@
 
     <section class="sub_header">
         <nav>
-            <a class="img" href="index.html"><i class="fa-solid fa-graduation-cap"></i></a>
-
+            <a href="index.html"><img src="./logo.png" alt="Logo"></a>
             <div class="nav-links" id="navLinks">
-
-
-                <label for="item"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></label>
-                <input type="checkbox" id="item" class="box" />
-
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html"> home</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="course.html">course</a></li>
-                    <li><a href="block.html.html">course</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="block.html.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+
                 </ul>
             </div>
-            <!-- <i class="fa-solid fa-bars"></i>-->
-            <label for="check"> <i class="fa-solid fa-bars icon" onclick="showMenu()"></i></label>
-            <input type="checkbox" id="check" class="input_box" />
-
-
-
-
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        
+
         <h1>contact US</h1>
 
-        
 
-        
+
+
 
 
     </section>
     <!--------------------contact us-------------------->
     <section class="location">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d124403.64469555732!2d80.2019119!3d12.9965292!3m2!1i1024!2i768!4f13.1!2m1!1schennai%20college%20location!5e0!3m2!1sen!2sin!4v1750379888125!5m2!1sen!2sin"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>World's Biggest University Location</h2>
+        <p>Visit us at our main campus in Chennai, India.</p>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.742232580348!2d80.24814391531849!3d13.082680890776332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267d4c7fa4329%3A0x41e8b1a1b2d6e7d6!2sAnna%20University!5e0!3m2!1sen!2sin!4v1687000000000!5m2!1sen!2sin"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
     </section>
+
+
+
+    <section class="contact_us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>Global Vision University</h5>
+                        <p>123 University Avenue,<br>Chennai, Tamil Nadu 600001,<br>India</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 44 1234 5678</h5>
+                        <p>Mon - Fri, 9:00 AM - 6:00 PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>contact@globalvision.edu</h5>
+                        <p>Send us your queries anytime</p>
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
 
     <section class="contact_us">
         <div class="row">
@@ -72,7 +111,7 @@
                         </h5>
                         <p>
                             chennai
-                            
+
                         </p>
                     </span>
                 </div>
@@ -84,7 +123,7 @@
                         </h5>
                         <p>
                             banglore
-                            
+
                         </p>
                     </span>
                 </div>
@@ -96,48 +135,71 @@
                         </h5>
                         <p>
                             email us your query
-                            
+
                         </p>
                     </span>
                 </div>
             </div>
-    <div class="contact-col">
-        <form action="">
-            <input type="text" placeholder="enter your name">
-            <input type="email" placeholder="enter your email">
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="enter your name">
+                    <input type="email" placeholder="enter your email">
 
-            <input type="subject" placeholder="enter your subject">
-            <textarea rows="8" placeholder="message"required></textarea>
-            <button type="submit" class="hero-btn red-btn">send message</button>
+                    <input type="subject" placeholder="enter your subject">
+                    <textarea rows="8" placeholder="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">send message</button>
 
 
 
-        </form>
+                </form>
 
-     
-                    
-                    
-                
 
-                
-        
-    </div>
- </section>
+
+
+
+
+
+
+            </div>
+    </section>
 
 
     <!--------------------FOOTER--------------------->
-    <section class="footer" style="background-color:#1a1a1a ; color: white;">
-        <h4>ABOUT US</h4>
-        <p>We are dedicated to fostering innovation, leadership, and academic excellence. Our mission is to prepare students for the future by offering world-class education and resources.</p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
-    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>ABOUT US</h4>
+                <p>We are dedicated to fostering innovation, leadership, and academic excellence. Our mission is to
+                    prepare students for the future by offering world-class education and resources.</p>
+            </div>
 
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: info@globalvision.edu</p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Address: 123 University St, City, Country</p>
+                <div class="icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="credit">Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
 
 
 
